@@ -7,6 +7,7 @@ import ImageScreen from "./src/screens/ImageScreen";
 import CounterScreen from "./src/screens/CounterScreen";
 import TextScreen from "./src/screens/TextScreen";
 import PasswordScreen from "./src/screens/PasswordScreen";
+import ChatScreen from "./src/screens/TestChatScreen";
 
 
 const navigator = createStackNavigator(
@@ -17,8 +18,8 @@ const navigator = createStackNavigator(
     Image: ImageScreen,
     Counter: CounterScreen,
     Text: TextScreen,
-    Passw: PasswordScreen
-
+    Passw: PasswordScreen,
+    Cht: ChatScreen
   },
   {
     initialRouteName: 'Home',
